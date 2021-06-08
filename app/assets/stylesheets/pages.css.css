@@ -16,6 +16,20 @@
   margin-right: 30px;
 }
 
+.link {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  display: inline;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: black;
+}
+
 .main {
   position: relative;
   top: 50px;
@@ -60,4 +74,42 @@
   padding: 16px 40px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.img-grid img {
+  font-size: 0;
+  width: 600px;
+  margin: 5px auto;
+}
+
+.img-grid figcaption {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  display: grid;
+  margin: 5px auto;
+}
+
+.description h4 {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 300px;
+  width: 550px;
+  text-align: justify;
+  display: inline;
+}
+
+.description p {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 15px 15px;
+  height: 300px;
+  width: 550px;
+  text-align: justify;
+  display: inline-block;
 }
